@@ -15,7 +15,7 @@ def make_a_line(filename):
 rest_list=make_a_line(scores_file)
 
 def creating_dictionary(newlist):
-	for item in restaurant_rating:
+	for item in newlist:
 		restaurant_rating_dict = {item[0]: item[1]}
 		print (restaurant_rating_dict)
 	return restaurant_rating_dict
